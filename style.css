@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+}
+
 .first-box {
   background: #1f2937;
   color: white;
@@ -132,4 +136,44 @@ button {
 
 strong {
   font-size: 25px;
+}
+
+.fourth-box {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-action {
+  color: white;
+  width: 50%;
+  height: 50%;
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.words {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+button {
+  border-color: white;
+  margin: 30px;
+}
+
+footer {
+  color: white;
+  background-color: #1f2937;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
