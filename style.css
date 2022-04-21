@@ -1,6 +1,8 @@
 .first-box {
   background: #1f2937;
   color: white;
+  margin: 0px;
+  padding: 0px;
 }
 
 .nav {
@@ -74,4 +76,41 @@ button {
   border-radius: 10px;
   padding: 10px;
   width: 100px;
+}
+
+.second-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+
+.info-header {
+  color: #1f2937;
+  font-weight: extra-bold;
+  font-size: 36px;
+}
+
+.img-1box {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-2box {
+  height: 200px;
+  width: 200px;
+  border: solid #3882f6 5px;
+  border-radius: 10px;
+}
+
+.img-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
