@@ -114,3 +114,22 @@ button {
   justify-content: space-between;
   gap: 20px;
 }
+
+.third-box {
+  background-color: #e5e7eb;
+  height: 300px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+strong {
+  font-size: 25px;
+}
